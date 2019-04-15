@@ -4,3 +4,5 @@
 |算法|包路径|
 | :------ | :------ |
 |多线程计算素数之和  						|com.xiu.fastAlgorithm.primenumber				 |
+|3个线程依次顺序循环打印ABC 				|com.xiu.fastAlgorithm.abcprint				 |
+|Condition实现生产者消费者模式 			|com.xiu.fastAlgorithm.conditionproducerconsume				 |
