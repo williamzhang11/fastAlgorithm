@@ -6,3 +6,8 @@
 |多线程计算素数之和  						|com.xiu.fastAlgorithm.primenumber				 |
 |3个线程依次顺序循环打印ABC 				|com.xiu.fastAlgorithm.abcprint				 |
 |Condition实现生产者消费者模式 			|com.xiu.fastAlgorithm.conditionproducerconsume				 |
+|经典排序算法总结 			|com.xiu.fastAlgorithm.classicsortsummary				 |
+|冒泡排序 			|com.xiu.fastAlgorithm.bubblesort				 |
+|选择排序 			|com.xiu.fastAlgorithm.selectionsort				 |
+|插入排序 			|com.xiu.fastAlgorithm.insertionsort				 |
+
