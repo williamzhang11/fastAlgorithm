@@ -12,4 +12,8 @@
 |插入排序 			|com.xiu.fastAlgorithm.insertionsort				 |
 |希尔排序 			|com.xiu.fastAlgorithm.shellsort				 |
 |归并排序 			|com.xiu.fastAlgorithm.mergesort				 |
+|快速排序 			|com.xiu.fastAlgorithm.quicksort				 |
+|堆排序 			|com.xiu.fastAlgorithm.heapsort				 |
+|计数排序 			|com.xiu.fastAlgorithm.countingsort				 |
+|桶排序 			|com.xiu.fastAlgorithm.bucketsort				 |
 
