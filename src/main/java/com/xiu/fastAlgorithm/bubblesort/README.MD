@@ -14,7 +14,7 @@
 	
 	(4)重复1-3直至排序完成
 	
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastTech/bubblesort/image/bubblesort.gif)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/bubblesort/image/bubblesort.gif)
 
 
 

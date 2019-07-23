@@ -10,4 +10,6 @@
 |冒泡排序 			|com.xiu.fastAlgorithm.bubblesort				 |
 |选择排序 			|com.xiu.fastAlgorithm.selectionsort				 |
 |插入排序 			|com.xiu.fastAlgorithm.insertionsort				 |
+|希尔排序 			|com.xiu.fastAlgorithm.shellsort				 |
+|归并排序 			|com.xiu.fastAlgorithm.mergesort				 |
 

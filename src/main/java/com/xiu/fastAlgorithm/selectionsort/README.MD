@@ -17,7 +17,7 @@ n个记录的直接选择排序可经过n-1趟直接选择排序得到有序结�
 	和R[i+1...n]分别变为记录个数增加1个新的有序区和记录数减少1个无序区
 	（3）n-1趟结束，数组有序化
 	
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastTech/bubblesort/image/bubblesort.gif)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/bubblesort/image/bubblesort.gif)
 
 	
 

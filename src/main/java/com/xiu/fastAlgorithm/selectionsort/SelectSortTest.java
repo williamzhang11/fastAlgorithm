@@ -1,7 +1,5 @@
 package com.xiu.fastAlgorithm.selectionsort;
 
-import java.util.Arrays;
-import java.util.List;
 
 //平均时间复杂度：O(n的平方)
 public class SelectSortTest {
