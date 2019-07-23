@@ -16,4 +16,5 @@
 |堆排序 			|com.xiu.fastAlgorithm.heapsort				 |
 |计数排序 			|com.xiu.fastAlgorithm.countingsort				 |
 |桶排序 			|com.xiu.fastAlgorithm.bucketsort				 |
+|基数排序 			|com.xiu.fastAlgorithm.radixsort				 |
 
