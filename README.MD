@@ -18,4 +18,5 @@
 |桶排序 			|com.xiu.fastAlgorithm.bucketsort				 |
 |基数排序 			|com.xiu.fastAlgorithm.radixsort				 |
 |经典七大查找算法总结			|com.xiu.fastAlgorithm.searchsummary				 |
+|二分查找算法			|com.xiu.fastAlgorithm.binarysearch				 |
 
