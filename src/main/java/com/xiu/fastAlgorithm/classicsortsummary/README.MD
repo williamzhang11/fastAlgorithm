@@ -1,4 +1,9 @@
 # 经典排序算法总结
+
+首先经常在算法书籍中看到logN的身影，那么这个对数的底数是多少呢？
+Weiss 在他的著作《数据结构与算法分析》中曾指出：在计算机科学中，除非有特殊的说明，否则所有的对数都是以2为底的。
+
+
 ## 1.概念
 
 将杂乱无章的数据元素，通过一定的方法按关键字顺序排列过程叫排序
@@ -155,7 +160,8 @@
 
 
 
-原文：https://blog.csdn.net/hairy_monsters/article/details/80154391 
+https://blog.csdn.net/hairy_monsters/article/details/80154391 
+https://blog.csdn.net/wq_1995/article/details/81937926
 
 
 

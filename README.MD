@@ -17,4 +17,5 @@
 |计数排序 			|com.xiu.fastAlgorithm.countingsort				 |
 |桶排序 			|com.xiu.fastAlgorithm.bucketsort				 |
 |基数排序 			|com.xiu.fastAlgorithm.radixsort				 |
+|经典七大查找算法总结			|com.xiu.fastAlgorithm.searchsummary				 |
 
