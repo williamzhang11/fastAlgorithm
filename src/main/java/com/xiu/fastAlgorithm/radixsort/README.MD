@@ -9,3 +9,5 @@
 	1.取得数组中的最大数，并取得位数
 	2.arr为原始数组，从最低位开始取每个位组成radix数组
 	3.对radix进行计数排序
+
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/radixsort/image/radixsort.gif)
