@@ -11,6 +11,8 @@
 二进制数均置为1,如果待检测元素经过k个哈希函数映射后,发现其k个位置上的二进制不全是1,那么这个元素一定不在
 集合S中,反之该元素可能是S中的某一个元素
 
+用途:判断一个元素在亿级数据中是否存在,解决缓存穿透问题
+
 ![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/bloomfilter.jpg)
 
 
