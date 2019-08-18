@@ -23,4 +23,6 @@
 |三大限流算法			|com.xiu.fastAlgorithm.currentlimit				 |
 |三大数据分布算法/分布式寻址算法			|com.xiu.fastAlgorithm.distributedal				 |
 |cap理论			|com.xiu.fastAlgorithm.cap				 |
+|5种负载均衡算法			|com.xiu.fastAlgorithm.loadbalance				 |
+
 
