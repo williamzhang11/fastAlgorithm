@@ -22,4 +22,5 @@
 |布隆过滤器			|com.xiu.fastAlgorithm.bloomfilter				 |
 |三大限流算法			|com.xiu.fastAlgorithm.currentlimit				 |
 |三大数据分布算法/分布式寻址算法			|com.xiu.fastAlgorithm.distributedal				 |
+|cap理论			|com.xiu.fastAlgorithm.cap				 |
 
