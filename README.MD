@@ -5,7 +5,7 @@
 | :------ |
 |[多线程计算素数之和](src/main/java/com/xiu/fastAlgorithm/primenumber/README.MD)|
 |[3个线程依次顺序循环打印ABC](src/main/java/com/xiu/fastAlgorithm/abcprint/README.MD)|
-|[Condition实现生产者消费者模式 ]src/main/java/com/xiu/fastAlgorithm/conditionproducerconsume/README.MD)|
+|[Condition实现生产者消费者模式 ](src/main/java/com/xiu/fastAlgorithm/conditionproducerconsume/README.MD)|
 |[经典十大排序算法总结 ](src/main/java/com/xiu/fastAlgorithm/classicsortsummary/README.MD)|
 |[冒泡排序 ](src/main/java/com/xiu/fastAlgorithm/bubblesort/README.MD)|
 |[选择排序 ](src/main/java/com/xiu/fastAlgorithm/selectionsort/README.MD)|
