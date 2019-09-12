@@ -24,13 +24,13 @@
 
 （1）临界问题
 假设有一个恶意用户,在0:59时,瞬间发送100个请求,并且1:00又瞬间发送100个请求,那么其实这个用户在1秒内,瞬间发送
-200个请求,因此用户通过在时间窗口的重置节点处突发请求,可用瞬时超过我们的速率限制.
+200个请求,就可能是系统挂掉。因此用户通过在时间窗口的重置节点处突发请求,可用瞬时超过我们的速率限制.
 
 （2）突刺效应
 
 如果在单位时间1s内的前10ms，已经通过了100个请求，那后面的990ms，后续的请求只能拒绝
 
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/currentlimit.jpg)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/currentlimit.JPG)
 
 
 应用：使用计数器来进行限流，主要用来限制总并发数，比如数据库连接池、线程池、秒杀的并发数；
@@ -40,9 +40,9 @@
 
 ## 2.滑动窗口算法
 
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/rollingwindow.jpg)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/rollingwindow.JPG)
 
-在上图中,整个红色的矩形框标识一个时间窗口,假如一个时间窗口是一分钟.然后将时间窗口进行划分,比如图中将滑动窗口
+在上图中,整个红色的矩形框标识一个时间窗口,假如一个时间窗口是1分钟.然后将时间窗口进行划分,比如图中将滑动窗口
 划分成6格,每格代表10秒钟.每过10秒时间窗口往右滑动一格.每一个格子有自己独立的计数器.如当一个请求在0:35时到达,
 那么0:30~0:39对应的counter加1.
 
@@ -56,6 +56,11 @@
 当滑动窗口的格子划分的越多，那么滑动窗口的滚动就越平滑，限流的统计就会越精确
 
 
+滑动窗口计数有很多使用场景，比如说限流防止系统雪崩。相比计数实现，滑动窗口实现会更加平滑，能自动消除毛刺。
+
+滑动窗口原理是在每次有访问进来时，先判断前 N 个单位时间内的总访问量是否超过了设置的阈值，并对当前时间片上的请求数 +1。
+
+
 ## 3.漏桶算法
 
 为了消除突刺现象，可以采用漏桶算法实现限流。
@@ -67,7 +72,7 @@
 
 缺点：不能应对实际场景，对短时突发流量缺乏效率，无法应对短时间的突发流量。
 
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/leakybucket.jpg)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/leakybucket.JPG)
 
 
 ## 4.令牌桶算法
@@ -83,7 +88,7 @@
 4)请求达到后首先要获取令牌桶中的令牌,拿着令牌才进行其他业务逻辑,处理完业务逻辑后,将令牌直接删除
 5)令牌桶有最低限额,当桶中令牌达到最低限额时,请求处理完之后将不会删除令牌，以此保证足够的限流
 
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/tokenbucket.jpg)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/tokenbucket.JPG)
 
 令牌桶算法与漏桶算法的主要区别在于：
 

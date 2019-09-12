@@ -10,7 +10,7 @@ redis cluster 的 hash slot 算法
 一旦某一个 master 节点宕机，所有请求过来，都会基于最新的剩余 master 节点数去取模，
 尝试去取数据。这会导致大部分的请求过来，全部无法拿到有效的缓存，导致大量的流量涌入数据库。
 
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/hash.jpg)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/hash.JPG)
 
 ## 2.一致性 hash 算法
 
