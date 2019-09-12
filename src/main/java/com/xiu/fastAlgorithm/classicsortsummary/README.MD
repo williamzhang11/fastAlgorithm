@@ -17,11 +17,11 @@ Weiss 在他的著作《数据结构与算法分析》中曾指出：在计算�
 线性时间非比较类排序：不通过比较来决定元素间的相对次序，它可以突破基于比较排序的时间下界，以线性时间
 运行，因此称为线性时间非比较类排序
 
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastTech/classicsortsummary/image/sortalg.jpg)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/classicsortsummary/image/sortalg.jpg)
 
 ## 3.比较
 
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastTech/classicsortsummary/image/sortcompare.jpg)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/classicsortsummary/image/sortcompare.jpg)
 
 稳定：如果a原本在b前面，而a=b，排序之后a仍然在b的前面
 不稳定：如果a原本在b的前面，而a=b，排序后a可能在b的后面
