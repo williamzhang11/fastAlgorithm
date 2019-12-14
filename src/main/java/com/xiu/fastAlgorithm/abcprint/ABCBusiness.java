@@ -17,8 +17,8 @@ public class ABCBusiness {
 	public void exec() {
 		Business business = new Business();
 		new CThread(business).start();
-		new AThread(business).start();
 		new BThread(business).start();
+		new AThread(business).start();
 	}
 	
 	

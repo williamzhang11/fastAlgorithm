@@ -25,5 +25,6 @@
 |[cap理论](src/main/java/com/xiu/fastAlgorithm/cap)|
 |[5种负载均衡算法](src/main/java/com/xiu/fastAlgorithm/loadbalance)|
 |[分布式主键生成算法](src/main/java/com/xiu/fastAlgorithm/primarykey)|
+|[自动刷新配置](src/main/java/com/xiu/fastAlgorithm/autoRefresh)|
 
 

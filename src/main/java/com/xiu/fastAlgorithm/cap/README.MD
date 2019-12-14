@@ -58,7 +58,7 @@ CAP原理是对分布式数据存储系统的一个定论。如果一个分布�
 
 # CAP原理在各个系统的应用
 
-![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/cap.jpg)
+![image](https://github.com/williamzhang11/fastAlgorithm/blob/master/src/main/java/com/xiu/fastAlgorithm/image/cap.JPG)
 
 https://blog.csdn.net/u013332124/article/details/82874178
 
